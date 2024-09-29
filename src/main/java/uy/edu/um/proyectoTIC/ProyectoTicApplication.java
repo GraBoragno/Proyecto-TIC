@@ -1,10 +1,8 @@
-package com.lab.proyectoTIC;
+package uy.edu.um.proyectoTIC;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.ApplicationContext;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Component;
 
 @SpringBootApplication
@@ -19,6 +17,6 @@ public class ProyectoTicApplication {
 	}
 
 	public void runInCommandLine() {
-		System.out.println("Ejecutando programa.");
+		System.out.println("Ejecutando programa...");
 	}
 }
